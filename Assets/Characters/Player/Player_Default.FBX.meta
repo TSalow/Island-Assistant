@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: 107bb531e11aff748be735333971d32c
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: L_Hand
+    4300002: Player_Default
+    4300004: Eyes
+    4300006: Mouth
+    4300008: Cap
+    4300010: Shoe_Fancy_L
+    4300012: Shoe_Fancy_R
+    4300014: R_Hand
+    7400000: Take 001 //// Player_Default
+    7400002: PlayerIdleAnim //// Player_Default
+    7400004: PlayerWalkAnim //// Player_Default
+    7400006: PlayerIdleAnim //// L_Hand
+    7400008: PlayerWalkAnim //// L_Hand
+    7400010: PlayerIdleAnim //// BodyDummy
+    7400012: PlayerWalkAnim //// BodyDummy
+    7400014: PlayerIdleAnim //// Body
+    7400016: PlayerWalkAnim //// Body
+    7400018: PlayerIdleAnim //// Body_TIP
+    7400020: PlayerWalkAnim //// Body_TIP
+    7400022: PlayerIdleAnim //// Eyes
+    7400024: PlayerWalkAnim //// Eyes
+    7400026: PlayerIdleAnim //// Mouth
+    7400028: PlayerWalkAnim //// Mouth
+    7400030: PlayerIdleAnim //// R_Hand_DUMMY
+    7400032: PlayerWalkAnim //// R_Hand_DUMMY
+    7400034: PlayerIdleAnim //// R_Hand 1
+    7400036: PlayerWalkAnim //// R_Hand 1
+    7400038: PlayerIdleAnim //// R_Hand_TIP
+    7400040: PlayerWalkAnim //// R_Hand_TIP
+    7400042: PlayerIdleAnim //// L_Hand_DUMMY
+    7400044: PlayerWalkAnim //// L_Hand_DUMMY
+    7400046: PlayerIdleAnim //// L_Hand 1
+    7400048: PlayerWalkAnim //// L_Hand 1
+    7400050: PlayerIdleAnim //// L_Hand_TIP
+    7400052: PlayerWalkAnim //// L_Hand_TIP
+    7400054: PlayerIdleAnim //// L_Shoe_DUMMY
+    7400056: PlayerWalkAnim //// L_Shoe_DUMMY
+    7400058: PlayerIdleAnim //// L_Shoe
+    7400060: PlayerWalkAnim //// L_Shoe
+    7400062: PlayerIdleAnim //// L_Shoe_TIP
+    7400064: PlayerWalkAnim //// L_Shoe_TIP
+    7400066: PlayerIdleAnim //// R_Shoe_DUMMY
+    7400068: PlayerWalkAnim //// R_Shoe_DUMMY
+    7400070: PlayerIdleAnim //// R_Shoe
+    7400072: PlayerWalkAnim //// R_Shoe
+    7400074: PlayerIdleAnim //// R_Shoe_TIP
+    7400076: PlayerWalkAnim //// R_Shoe_TIP
+    7400078: PlayerIdleAnim //// Cap
+    7400080: PlayerWalkAnim //// Cap
+    7400082: PlayerIdleAnim //// Shoe_Fancy_L
+    7400084: PlayerWalkAnim //// Shoe_Fancy_L
+    7400086: PlayerIdleAnim //// Shoe_Fancy_R
+    7400088: PlayerWalkAnim //// Shoe_Fancy_R
+    7400090: PlayerIdleAnim //// R_Hand
+    7400092: PlayerWalkAnim //// R_Hand
+    7400094: PlayerIdleAnim //// Shape001
+    7400096: PlayerWalkAnim //// Shape001
+    7400098: PlayerRunAnim //// Player_Default
+    7400100: PlayerJumpAnim //// Player_Default
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: PlayerWalkAnim
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 2
+      loop: 1
+    - name: PlayerIdleAnim
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 1
+      loop: 0
+    - name: PlayerRunAnim
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 2
+      loop: 1
+    - name: PlayerJumpAnim
+      firstFrame: 1
+      lastFrame: 16
+      wrapMode: 4
+      loop: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 111
+        second: 605fa900
+    Body:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+    BodyDummy:
+      data:
+        first: 1
+        second: d0860100
+      data:
+        first: 4
+        second: b01a0600
+    Body_TIP:
+      data:
+        first: 1
+        second: c8860100
+      data:
+        first: 4
+        second: a81a0600
+    Cap:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    Eyes:
+      data:
+        first: 1
+        second: ce860100
+      data:
+        first: 4
+        second: ae1a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    L_Hand:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+      data:
+        first: 137
+        second: a20bd100
+    L_Hand 1:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+    L_Hand_DUMMY:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+    L_Hand_TIP:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+    L_Shoe:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+    L_Shoe_DUMMY:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+    L_Shoe_TIP:
+      data:
+        first: 1
+        second: ca860100
+      data:
+        first: 4
+        second: aa1a0600
+    Mouth:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    Player_Default:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 137
+        second: a00bd100
+    R_Hand:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+      data:
+        first: 137
+        second: a60bd100
+    R_Hand 1:
+      data:
+        first: 1
+        second: c6860100
+      data:
+        first: 4
+        second: a61a0600
+    R_Hand_DUMMY:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+    R_Hand_TIP:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+    R_Shoe:
+      data:
+        first: 1
+        second: c2860100
+      data:
+        first: 4
+        second: a21a0600
+    R_Shoe_DUMMY:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+    R_Shoe_TIP:
+      data:
+        first: 1
+        second: cc860100
+      data:
+        first: 4
+        second: ac1a0600
+    Shape001:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+    Shoe_Fancy_L:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+      data:
+        first: 137
+        second: a40bd100
+    Shoe_Fancy_R:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+      data:
+        first: 137
+        second: a80bd100
